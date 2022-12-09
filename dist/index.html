@@ -10,15 +10,33 @@
   <body>
     <div class="content">
       <nav>
-        <div class="link">
-          <a href="#">Characters</a>
-        </div>
-        <div class="link">
-          <a href="#">Monsters</a>
-        </div>
-        <div class="link">
-          <a href="#">Locations</a>
-        </div>
+        <button class="link" data-dropdown-button>
+          Characters
+          <div class="dropdown" data-dropdown>
+            <a href="#" class="dropdown-item">Knight</a>
+            <a href="#" class="dropdown-item">Assassin</a>
+            <a href="#" class="dropdown-item">Sorcerer</a>
+            <a href="#" class="dropdown-item">Ranger</a>
+          </div>
+        </button>
+        <button class="link" data-dropdown-button>
+          Monsters
+          <div class="dropdown" data-dropdown>
+            <a href="#" class="dropdown-item">Centaurs</a>
+            <a href="#" class="dropdown-item">Satyrs</a>
+            <a href="#" class="dropdown-item">Gorgons</a>
+            <a href="#" class="dropdown-item">Sirens</a>
+            <a href="#" class="dropdown-item">Harpies</a>
+          </div>
+        </button>
+        <button class="link" data-dropdown-button>
+          Locations
+          <div class="dropdown" data-dropdown>
+            <a href="#" class="dropdown-item">Sparta</a>
+            <a href="#" class="dropdown-item">Delphi</a>
+            <a href="#" class="dropdown-item">Athens</a>
+          </div>
+        </button>
       </nav>
     </div>
     
